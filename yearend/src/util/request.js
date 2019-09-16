@@ -3,8 +3,6 @@ import router  from '../router'
 import axios from 'axios'
 import utils from './utils.js'
 const service = axios.create({
-  baseURL: "http://ty.yunjiglobal.com/year",
-  timeout: 25000
 })
 // request拦截器
 service.interceptors.request.use(config => {
